@@ -14,6 +14,9 @@ link.attr("href","#1");             //then to add the href and its value I used 
 
 // This is equivallent to $(".nav-list").children().first().find('a').attr('href','#1');
 
+//including inline css for font increasing to 20 px with jQuery 
+$(".article-item").css("font-size","20px");
+
 /*
 This js is done by jQuery(biggest library of JS) .The html code are given below . 
 
@@ -43,7 +46,7 @@ This is the HTML document that you'll use jQuery to modify. To take the quiz, cl
                 </ul>
             </nav>
         </header>
-        <div class="articles">
+        <div class="artartiicles">
             <input id="input" value="Cool Articles" type="text">
             <h1>Cool Articles</h1>
             <ul class="article-list">
