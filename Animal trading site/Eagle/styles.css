@@ -1,0 +1,54 @@
+/* add your CSS here */
+#container {
+	position : absolute;
+  	top : 50%;
+  left :50%;
+ transform:translate(-50%,-50%);
+  width:300px;
+  border: 12px solid #fff;
+  padding: 5px;
+}
+h1{
+	display: flex;
+transition: 0.3s ease;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+  font-style: italic;
+  border-left: 7px solid blue;
+  background-color: #afdff3;
+  border-radius: 6px;
+  padding: 5px;
+}
+
+
+img{
+	width:300px;
+  border : 1px solid Blue;
+  box-shadow: 6px 6px 2px grey;
+  	border-radius : 5px;
+  padding: 15px;
+}
+#interesting-fact{
+	color: #d81235;
+  font-style: Italic;
+}
+.animal-info{
+	border: 5px solid #143fba;
+  background-color: #62cbcf;
+  border-radius: 5px;
+  padding: 5px;
+}
+#facts{
+	list-style-type: none;
+}
+span{
+  font-weight: bold;
+	color : #082ba2;
+}
+#summary{
+		border: 5px solid #084d1ccc;
+  background-color: #b3cf26;
+  border-radius: 5px;
+}

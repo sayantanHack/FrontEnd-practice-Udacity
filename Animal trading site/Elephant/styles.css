@@ -1,0 +1,35 @@
+.Cards{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 300px;
+  border: 6px solid grey transparent ;
+
+
+}
+.Cards2{
+  border-left: 5px solid #084d1ccc;
+  background-color: #b3cf26;
+  border-radius: 5px;
+}
+h3{
+  display: flex;
+transition: 0.3s ease;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+  font-style: italic;
+  border-left: 7px solid blue;
+  background-color: #afdff3;
+  border-radius: 6px;
+}
+img{
+  width: 300px;
+  border-radius: 5px;
+  border-image: url("https://ssl.c.photoshelter.com/img-get/I0000LN762CPvHq8/s/600/600/African-elephant-picture-photos-3Me494.jpg") 20% round;
+}
+span{
+  font-weight: bold;
+}
