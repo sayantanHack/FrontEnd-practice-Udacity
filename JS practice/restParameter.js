@@ -8,8 +8,9 @@ function average(...theArgs) {
     let temp = 0;
     for(const theArg of theArgs){
     temp+=theArg; 
+    n = theArgs.length;
     }
-    return temp/(theArgs.length);
+    return temp/n;
 }
 
 console.log(average(2, 6));
